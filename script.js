@@ -26,6 +26,8 @@ const showText = document.querySelector('.showing-result');
 const pagination = document.querySelector('.pagination');
 const numPages = document.querySelector('.page-num-sec');
 const discountCheckbox = document.querySelectorAll('.discount-checkbox');
+const minOptions = document.querySelectorAll('.min-options');
+const maxOptions = document.querySelectorAll('.max-options');
 
 let pages;
 const noProducts = document.querySelector('.no-product-msg');
@@ -424,11 +426,37 @@ function removeFilterItem(e) {
 
 // Add min-max price to filter box
 function minMaxPriceFilter(e) {
-  if (
-    Number(minValue) >= Number(maxPrice.value) ||
-    Number(maxValue) <= Number(minPrice.value)
-  )
-    return;
+  // if (
+  //   Number(minValue) >= Number(maxPrice.value) ||
+  //   Number(maxValue) <= Number(minPrice.value)
+  // )
+  //   return;
+
+  // minOptions.forEach(min => {
+  //   console.log(maxValue);
+  //   if(+min.value >= maxValue){
+  //     min.classList.add('hidden')
+  //   }
+  // })
+
+  // maxOptions.forEach(max => {
+  //   if(+max.value <= minValue){
+  //     max.classList.add('hidden')
+  //   }
+  // })
+
+  // let minArr = []
+  // let maxArr = []
+
+  // minOptions.forEach(min => {
+  //   minArr.push(min.value)
+  // })
+
+  // maxOptions.forEach(max => {
+  //   maxArr.push(max.value)
+  // })
+
+  // console.log(minArr, maxArr);
 
   let value;
   if (e.target.id === 'min') {
@@ -440,6 +468,24 @@ function minMaxPriceFilter(e) {
 
     value = minPrice.value + '-' + e.target.value;
   }
+
+  minOptions.forEach((min) => {
+    console.log(maxValue);
+    if (+min.value >= maxValue) {
+      min.classList.add('hidden');
+    } else {
+      min.classList.remove('hidden');
+    }
+  });
+
+  maxOptions.forEach((max) => {
+    console.log(minValue);
+    if (+max.value <= minValue) {
+      max.classList.add('hidden');
+    } else {
+      max.classList.remove('hidden');
+    }
+  });
 
   selectedItems(value, 'price');
 
@@ -461,7 +507,6 @@ function minMaxPriceFilter(e) {
   });
   addAllFilters();
 }
-
 
 function clearAll() {
   console.log('cleared');
@@ -738,7 +783,6 @@ clearAllFilter.addEventListener('click', clearAll);
 selectPrice.forEach((price) => {
   price.addEventListener('change', minMaxPriceFilter);
 });
-
 
 getJSON();
 getFlipData();

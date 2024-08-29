@@ -639,7 +639,7 @@ img {
   /* -webkit-appearance: none; */
 }
 
-.options {
+.min-options, .max-options {
   padding: 0 7px;
 }
 
