@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flipCart</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="icon" href="assets/image/download.jpeg"> -->
+    <link rel="shortcut icon" href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-sections">
+          <div class="spacer"></div>
+          <div class="navbar-items-section">
+            <div class="navbar-icon-sec">
+              <div class="navbar-img-content-sec">
+                <a href="" class="flip-icon"> <!-- img --> </a>
+                <a href="" class="flip-content"
+                  >Explore
+                  <span class="icon-txt"> Plus</span>
+                  <img src="" alt="" class="plus-icon" />
+                </a>
+              </div>
+            </div>
+            <div class="searchbar">
+              <form action="" class="header-search-form">
+                <div class="form-elements">
+                  <div class="search-view">
+                    <input
+                      type="text"
+                      placeholder="Search for products, brands and more"
+                      class="input-search"
+                      value="mobile"
+                    />
+                  </div>
+                  <button class="search-btn" type="submit"></button>
+                </div>
+              </form>
+            </div>
+            <div class="login-div">
+              <a href="#" class="login-btn">Login</a>
+            </div>
+            <div class="seller">
+              <a href="#" class="seller-link"></a>
+            </div>
+            <div class="seller">
+              <a href="#" class="seller-link more"></a>
+            </div>
+            <div class="seller">
+              <a href="#" class="seller-link cart"
+                ><img class="cart-img" src="" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="spacer"></div>
+        </div>
+      </nav>
+      <nav class="second-nav">
+        <div class="second-nav-sec">
+          <!-- <span class="second-nav-txt">
+            <img src="" alt="" class="second-nav-arrow" />
+          </span>
+          <a href="" class="second-nav-link"></a> -->
+        </div>
+      </nav>
+      <main class="main">
+        <div class="main-flex">
+          <div class="left-section">
+            <div class="left-sec-elements">
+              <div class="left-side-items">
+                <section class="section-1 section-common">
+                  <div class="section1-head">
+                    <div class="head-text-sec"></div>
+                    <div class="clear-text hidden"></div>
+                  </div>
+                  <div class="selected-filters hidden">
+                    <!-- <div class="selected-items" >
+                      <div class="selected-item" value="${brand}">
+                        <div class="x-mark">✕</div>
+                        <div class="phone-name">${brand}</div>
+                      </div>
+                    </div> -->
+                  </div>
+                  <div class="show-more hidden"><span>Show more</span></div>
+                </section>
+                <section class="categories">
+                  <div class="category-head"></div>
+                  <div class="accessories">
+                    <span
+                      ><img
+                        src="assets/image/left-arrow.svg"
+                        alt=""
+                        class="left-icon"
+                    /></span>
+                    <a href="#" class="accessories-link"
+                      >Mobiles & Accessories</a
+                    >
+                  </div>
+                  <div class="mobile-name">
+                    <a href="#" class="mobile-link">Mobiles</a>
+                  </div>
+                </section>
+                <section class="section-3 section-common">
+                  <div class="price-head-sec">
+                    <div class="price-head"><span>price</span></div>
+                    <div class="clear-price hidden"><span>clear</span></div>
+                  </div>
+                  <div class="price-graph">
+                    <div class="price-graph1">
+                      <div class="graphs"></div>
+                      <div class="graphs"></div>
+                      <div class="graphs"></div>
+                      <div class="graphs"></div>
+                      <div class="graphs"></div>
+                    </div>
+                  </div>
+                  <div class="price-scale">
+                    <div class="line-scale">
+                      <div class="rounded">
+                        <div class="round"></div>
+                      </div>
+                      <div class="rounded-right">
+                        <div class="round-right"></div>
+                      </div>
+                      <div class="white-line"></div>
+                      <div class="blue-line"></div>
+                    </div>
+                    <div class="dot-scale">
+                      <div class="dot">.</div>
+                      <div class="dot">.</div>
+                      <div class="dot">.</div>
+                      <div class="dot">.</div>
+                      <div class="dot">.</div>
+                      <div class="dot dot1">.</div>
+                    </div>
+                  </div>
+                  <div class="min-max-price">
+                    <div class="min-price">
+                      <select name="" id="min" class="select-price select-min">
+                        <option value="Min" class="options" selected="selected">Min</option>
+                        <option value="10000" class="options">₹10000</option>
+                        <option value="15000" class="options">₹15000</option>
+                        <option value="20000" class="options">₹20000</option>
+                        <option value="30000" class="options">₹30000</option>
+                      </select>
+                    </div>
+                    <div class="to">to</div>
+                    <div class="max min-price">
+                      <select name="" id="max" class="select-price select-max">
+                        <option value="10000" class="options">₹10000</option>
+                        <option value="15000" class="options">₹15000</option>
+                        <option value="20000" class="options">₹20000</option>
+                        <option value="30000" class="options">₹30000</option>
+                        <option value="30000+" class="options" selected="selected">
+                          ₹30000+
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </section>
+                <section class="section-4 section-common">
+                  <div class="brand-head-sec">
+                    <div class="brand-head">Brand</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="brand-arrow"
+                    />
+                  </div>
+                  <div class="brands-sec">
+                    <div class="search-brands">
+                      <div class="brand-searchbar">
+                        <img
+                          src="assets/image/brand-search-icon.svg"
+                          alt=""
+                          class="brand-search-icon"
+                        />
+                        <input
+                          type="text"
+                          class="brand-inputs"
+                          placeholder="Search Brand"
+                        />
+                      </div>
+                      <div class="brand-sections">
+                        <!-- <div class="brand-sec">
+                          <div class="brand">
+                            <label for="" class="brand-label">
+                              <input type="checkbox" class="brand-checkbox" value="Apple">
+                              <div class="brand-name">SAMSUNG</div>
+                            </label>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="section-6 section-common">
+                  <div class="rating-head-sec">
+                    <div class="rating-head">Customer Ratings</div>
+                    <img
+                      src="assets/image/rating-arrow.svg"
+                      alt=""
+                      class="rating-arrow"
+                    />
+                  </div>
+                  <div class="rating-stars-section">
+                    <div class="ratings-sec">
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox rating-checkbox" value="4★ & above"
+                          />
+                          <div class="rating-txt">4★ & above</div>
+                        </label>
+                      </div>
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox rating-checkbox" value="3★ & above"
+                          />
+                          <div class="rating-txt">3★ & above</div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- <section class="section-7 section-common">
+                  <div class="rating-head-sec gst-head-sec">
+                    <div class="rating-head gst-head">
+                      GST Invoice Available
+                    </div>
+                    <img
+                      src="assets/image/rating-arrow.svg"
+                      alt=""
+                      class="gst-arrow"
+                    />
+                  </div>
+                </section> -->
+                <section class="section-8 section-common">
+                  <div class="rating-head-sec ram-head-sec">
+                    <div class="rating-head ram-head">RAM</div>
+                    <img
+                      src="assets/image/rating-arrow.svg"
+                      alt=""
+                      class="rating-arrow ram-arrow"
+                    />
+                  </div>
+                  <div class="ram-sections">
+                    <div class="ram-sec">
+                      <div class="ram">
+                        <label for="" class="ram-label">
+                          <input
+                            type="checkbox"
+                            class="ram-checkbox brand-checkbox" value="4 GB"
+                          />
+                          <div class="ram-type brand-name">4 GB</div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="ram-sec">
+                      <div class="ram">
+                        <label for="" class="ram-label">
+                          <input
+                            type="checkbox"
+                            class="ram-checkbox brand-checkbox" value="3 GB"
+                          />
+                          <div class="ram-type brand-name">3 GB</div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="ram-sec">
+                      <div class="ram">
+                        <label for="" class="ram-label">
+                          <input
+                            type="checkbox"
+                            class="ram-checkbox brand-checkbox" value="2 GB"
+                          />
+                          <div class="ram-type brand-name">2 GB</div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="ram-sec">
+                      <div class="ram">
+                        <label for="" class="ram-label">
+                          <input
+                            type="checkbox"
+                            class="ram-checkbox brand-checkbox" value="1 GB and Below"
+                          />
+                          <div class="ram-type brand-name">1 GB and Below</div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="ram-sec">
+                      <div class="ram">
+                        <label for="" class="ram-label">
+                          <input
+                            type="checkbox"
+                            class="ram-checkbox brand-checkbox" value="8 GB and Above"
+                          />
+                          <div class="ram-type brand-name">8 GB and Above</div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="ram-sec">
+                      <div class="ram">
+                        <label for="" class="ram-label">
+                          <input
+                            type="checkbox"
+                            class="ram-checkbox brand-checkbox" value="6 GB"
+                          />
+                          <div class="ram-type brand-name">6 GB</div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- <section class="section-9 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">internal storage</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-10 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">battery capacity</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section> -->
+                <!-- <section class="section-11 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">screen size</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-12 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">primary camera</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-13 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">secondary camera</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section> -->
+                <!-- <section class="section-14 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">processor brand</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-15 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">speciality</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-16 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">resolution type</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section> -->
+                <!-- <section class="section-17 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">operating system</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-18 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">network type</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-19 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">sim type</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section> -->
+                <!-- <section class="section-20 section-common sections">
+                  <div class="rating-head-sec">
+                    <div class="rating-head">offers</div>
+                    <img
+                      src="assets/image/rating-arrow.svg"
+                      alt=""
+                      class="rating-arrow"
+                    />
+                  </div> -->
+                  <!-- <div class="rating-stars-section">
+                    <div class="ratings-sec">
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox rating-checkbox" value="Buy More, Save More"
+                          />
+                          <div class="rating-txt">Buy More, Save More</div>
+                        </label>
+                      </div>
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox rating-checkbox" value="No Cost EMI"
+                          />
+                          <div class="rating-txt">No Cost EMI</div>
+                        </label>
+                      </div>
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox rating-checkbox" value="Special Price"
+                          />
+                          <div class="rating-txt">Special Price</div>
+                        </label>
+                      </div>
+                    </div>
+                  </div> -->
+                <!-- </section>
+                <section class="section-21 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">features</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-22 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">type</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-23 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">number of cores</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section> -->
+                <!-- <section class="section-24 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">availability</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section> -->
+                <section class="section-25 section-common sections">
+                  <div class="rating-head-sec">
+                    <div class="rating-head">discount</div>
+                    <img
+                      src="assets/image/rating-arrow.svg"
+                      alt=""
+                      class="rating-arrow"
+                    />
+                  </div>
+                  <div class="rating-stars-section">
+                    <div class="ratings-sec">
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox discount-checkbox" value="50% or more"
+                          />
+                          <div class="rating-txt">50% or more</div>
+                        </label>
+                      </div>
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox discount-checkbox" value="40% or more"
+                          />
+                          <div class="rating-txt">40% or more</div>
+                        </label>
+                      </div>
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox discount-checkbox" value="30% or more"
+                          />
+                          <div class="rating-txt">30% or more</div>
+                        </label>
+                      </div>
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox discount-checkbox" value="20% or more"
+                          />
+                          <div class="rating-txt">20% or more</div>
+                        </label>
+                      </div>
+                      <div class="stars-sec">
+                        <label for="" class="stars-label">
+                          <input
+                            type="checkbox"
+                            class="brand-checkbox discount-checkbox" value="10% or more"
+                          />
+                          <div class="rating-txt">10% or more</div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- <section class="section-26 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">
+                      operating system version name
+                    </div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section>
+                <section class="section-27 section-common sections">
+                  <div class="section-heads">
+                    <div class="section-head">clock speed</div>
+                    <img
+                      src="assets/image/brand-arrow.svg"
+                      alt=""
+                      class="sections-image"
+                    />
+                  </div>
+                </section> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="right-section">
+            <div class="result-head-section">
+              <div class="result-head-sub">
+                <div class="result-head-sub1">
+                  <div class="result-head-top">
+                    <div class="result-head-home">
+                      <a href="" class="home-link">Home</a>
+                      <img
+                        src="assets/image/brand-arrow.svg"
+                        alt=""
+                        class="home-arrow"
+                      />
+                    </div>
+                    <div class="result-head-home mar-left">
+                      <a href="" class="home-link">Mobiles & Accessories</a>
+                      <img
+                        src="assets/image/brand-arrow.svg"
+                        alt=""
+                        class="home-arrow mar-left"
+                      />
+                    </div>
+                    <div class="result-head-home mar-left1">
+                      <a href="" class="home-link">Mobiles</a>
+                    </div>
+                  </div>
+                  <span class="showing-result"
+                    >Showing 1 – 24 of 9,446 results for "mobile"</span>
+                  <div class="sorting-options">
+                    <span class="sortby sort-common">Sort By</span>
+                    <span class="sort-option sort-common underline"
+                      >Relevance</span
+                    >
+                    <span class="sort-option sort-common">Popularity</span>
+                    <span class="sort-option sort-common"
+                      >Price -- Low to High</span
+                    >
+                    <span class="sort-option sort-common"
+                      >Price -- High to Low</span
+                    >
+                    <span class="sort-option sort-common">Newest First</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-cards">
+              <!-- <div class="mobile-cards-flex">
+                <div class="mobile-cards-padding">
+                  <a href="" class="card">
+                    <div class="mobile-image-section">
+                      <div class="image-sec">
+                        <img src="assets/image/phone-img.webp" alt="" class="phone-image">
+                      </div>
+                      <div class="compare-section">
+                        <div class="compare-sec">
+                          <span class="compare-checkbox-sec">
+                            <label for="" class="compare-label">
+                              <input type="checkbox" class="compare-checkbox">
+                            </label>
+                          </span>
+                          <label for="" class="compare-label-text">
+                            <span>Add to Compare</span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="heart-section">
+                        <div class="heart">
+                          <img src="assets/image/heart.svg" alt="" class="heart-image">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-contents-section">
+                      <div class="card-content-section-1">
+                        <div class="phone-names">Apple iPhone 15 (Black, 128 GB)</div>
+                        <div class="rating-review-sec">
+                          <div class="product-rating">
+                            4.6 <img src="assets/image/star.svg" alt="" class="rating-star">
+                          </div>
+                          <span class="rating-text">
+                            <span>45,478 Ratings &  2,431 Reviews</span>
+                          </span>
+                        </div>
+                        <div class="specification-sec">
+                          <ul class="specification-list">
+                            <li class="list">128 GB ROM</li>
+                            <li class="list">15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                            <li class="list">48MP + 12MP | 12MP Front Camera</li>
+                            <li class="list">A16 Bionic Chip, 6 Core Processor Processor</li>
+                            <li class="list">1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-content-section-2">
+                        <div class="price-details">
+                          <div class="prices">
+                            <div class="price">₹65,499</div>
+                            <div class="actual-price">₹79,600</div>
+                            <div class="off-price"><span>17% off</span></div>
+                          </div>
+                          <div class="delivery-sec"><span class="delivery-text">Free delivery</span></div>
+                        </div>
+                        <div class="assured-img1-sec">
+                          <img src="assets/image/assured.png" alt="" class="assured-img1">
+                        </div>
+                        <div class="saver-deal-sec">
+                          <div class="saver-text">Saver Deal</div>
+                        </div>
+                        <div class="saver-deal-sec ex-section">
+                          <div class="ex-sec">
+                            <div class="ex1">Upto</div>
+                            <div class="ex2">₹50,150</div>
+                            <div class="ex3"> Off on Exchange</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div> -->
+            </div>
+            <div class="pagination hidden">
+              <div class="page-section">
+                <div class="page-num-sec">
+                  <!-- <a href="" class="page-link page-active">1</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="no-product-msg hidden">
+              <!-- <div class="message-sec">
+                <img class="not-found-img" src="" alt="">
+                <span></span>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "icon": "assets/image/flipkart-plus_8d85f4.png",
+    "a": "Explore",
+    "sp": "Plus",
+    "plus_icon": "assets/image/plus_aef861.png",
+    "search_svg": "assets/image/svgexport-1 (1).svg",
+    "login": "Login",
+    "seller": "Become a Seller",
+    "more": "More",
+    "cart": "Cart",
+    "bt_arrow": "assets/image/svgexport-2 (1).svg",
+    "cart_icon": "assets/image/svgexport-3 (1).svg"
+  },
+  "sec_nav": {
+    "sections": [
+      "Electronics",
+      "TVs & Appliances",
+      "Men",
+      "Women",
+      "Baby & Kids",
+      "Home & Furniture",
+      "Sports, Books & More"
+    ],
+    "section_icon": "assets/image/svgexport-4 (1).svg",
+    "sections1": ["Flights", "Offer Zone"]
+  },
+  "sidebar":{
+    "head": "filters",
+    "clear": "clear all",
+    "x_mark": "✕",
+    "category": "categories",
+    "assured": "assets/image/assured.png"
+  } 
+}
+
+
