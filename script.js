@@ -426,39 +426,9 @@ function removeFilterItem(e) {
 
 // Add min-max price to filter box
 function minMaxPriceFilter(e) {
-  // if (
-  //   Number(minValue) >= Number(maxPrice.value) ||
-  //   Number(maxValue) <= Number(minPrice.value)
-  // )
-  //   return;
-
-  // minOptions.forEach(min => {
-  //   console.log(maxValue);
-  //   if(+min.value >= maxValue){
-  //     min.classList.add('hidden')
-  //   }
-  // })
-
-  // maxOptions.forEach(max => {
-  //   if(+max.value <= minValue){
-  //     max.classList.add('hidden')
-  //   }
-  // })
-
-  // let minArr = []
-  // let maxArr = []
-
-  // minOptions.forEach(min => {
-  //   minArr.push(min.value)
-  // })
-
-  // maxOptions.forEach(max => {
-  //   maxArr.push(max.value)
-  // })
-
-  // console.log(minArr, maxArr);
-
+  
   let value;
+
   if (e.target.id === 'min') {
     minValue = e.target.value === 'Min' ? 0 : Number(e.target.value);
 

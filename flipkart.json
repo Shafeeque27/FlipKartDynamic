@@ -4,7 +4,7 @@
       "brand": "Apple",
       "title": "Apple iPhone 15 (Green, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 12,
+      "ram": 12,
       "highlights": [
         "12 GB RAM",
         "15.49 cm (6.1 inch) Super Retina XDR Display",
@@ -27,7 +27,7 @@
       "brand": "POCO",
       "title": "POCO M6 Pro 5G (Power Black, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 6,
+      "ram": 6,
       "highlights": [
         "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
         "17.25 cm (6.79 inch) Full HD+ Display",
@@ -51,7 +51,7 @@
       "brand": "MOTOROLA",
       "title": "Motorola Edge 50 Fusion (Marshmallow Blue, 128 GB)",
       "stock": "COMING_SOON",
-      "ram" : 8,
+      "ram": 8,
       "highlights": [
         "8 GB RAM | 128 GB ROM",
         "17.02 cm (6.7 inch) Full HD+ Display",
@@ -75,7 +75,7 @@
       "brand": "OPPO",
       "title": "OPPO K12x 5G with 45W SUPERVOOC Charger",
       "stock": "IN_STOCK",
-      "ram" : 8,
+      "ram": 8,
       "highlights": [
         "8 GB RAM | 256 GB ROM | Expandable Upto 1 TB",
         "16.94 cm (6.67 inch) HD Display",
@@ -99,7 +99,7 @@
       "brand": "SAMSUNG",
       "title": "SAMSUNG Galaxy S23 5G (Lavender, 256 GB)",
       "stock": "IN_STOCK",
-      "ram" : 8,
+      "ram": 8,
       "highlights": [
         "8 GB RAM | 256 GB ROM",
         "15.49 cm (6.1 inch) Full HD+ Display",
@@ -123,7 +123,7 @@
       "brand": "REDMI",
       "title": "REDMI 13C (Stardust Black, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 4,
+      "ram": 4,
       "highlights": [
         "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
         "17.12 cm (6.74 inch) HD+ Display",
@@ -147,7 +147,7 @@
       "brand": "POCO",
       "title": "POCO C65 (Pastel Green, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 4,
+      "ram": 4,
       "highlights": [
         "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
         "17.12 cm (6.74 inch) HD+ Display",
@@ -171,7 +171,7 @@
       "brand": "POCO",
       "title": "POCO C65 (Matte Black, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 4,
+      "ram": 4,
       "highlights": [
         "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
         "17.12 cm (6.74 inch) HD+ Display",
@@ -195,7 +195,7 @@
       "brand": "MOTOROLA",
       "title": "Motorola g64 5G (Ice Lilac, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 8,
+      "ram": 8,
       "highlights": [
         "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
         "16.51 cm (6.5 inch) Full HD+ Display",
@@ -219,7 +219,7 @@
       "brand": "POCO",
       "title": "POCO C65 (Pastel Blue, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 4,
+      "ram": 4,
       "highlights": [
         "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
         "17.12 cm (6.74 inch) HD+ Display",
@@ -242,7 +242,7 @@
       "brand": "MOTOROLA",
       "title": "Motorola Edge 50 Fusion (Marshmallow Blue, 256 GB)",
       "stock": "COMING_SOON",
-      "ram" : 12,
+      "ram": 12,
       "highlights": [
         "12 GB RAM | 256 GB ROM",
         "17.02 cm (6.7 inch) Full HD+ Display",
@@ -266,7 +266,7 @@
       "brand": "MOTOROLA",
       "title": "Motorola g04s (Satin Blue, 64 GB)",
       "stock": "IN_STOCK",
-      "ram" : 4,
+      "ram": 4,
       "highlights": [
         "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
         "16.76 cm (6.6 inch) HD+ Display",
@@ -290,7 +290,7 @@
       "brand": "REDMI",
       "title": "REDMI 13C (Starfrost White, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 4,
+      "ram": 4,
       "highlights": [
         "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
         "17.12 cm (6.74 inch) HD+ Display",
@@ -314,7 +314,7 @@
       "brand": "POCO",
       "title": "POCO C65 (Pastel Blue, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 6,
+      "ram": 6,
       "highlights": [
         "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
         "17.12 cm (6.74 inch) HD+ Display",
@@ -338,7 +338,7 @@
       "brand": "MOTOROLA",
       "title": "Motorola g64 5G (Mint Green, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 8,
+      "ram": 8,
       "highlights": [
         "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
         "16.51 cm (6.5 inch) Full HD+ Display",
@@ -362,7 +362,7 @@
       "brand": "Nokia",
       "title": "Nokia 105 Single SIM, Keypad Mobile Phone with Wireless FM Radio",
       "stock": "IN_STOCK",
-      "ram" : 1,
+      "ram": 1,
       "highlights": [
         "32 MB RAM | 32 MB ROM",
         "4.5 cm (1.77 inch) Display",
@@ -383,34 +383,34 @@
     },
 
     {
-        "brand": "MOTOROLA",
-        "title": "Motorola G34 5G (Charcoal Black, 128 GB)",
-        "stock": "IN_STOCK",
-        "ram" : 8,
-        "highlights": [
-          "8 GB RAM | 128 GB ROM",
-          "16.51 cm (6.5 inch) HD+ Display",
-          "50MP + 2MP | 16MP Front Camera",
-          "5000 mAh Battery",
-          "Snapdragon 695 5G Processor"
-        ],
-        "mrp": 14999,
-        "price": 11999,
-        "rating": {
-          "average": 4.2,
-          "count": 88727,
-          "reviewCount": 6413
-        },
-        "p_no": 17,
-        "image": "assets/image/motorola.webp",
-        "start_date": "2023-10-01"
+      "brand": "MOTOROLA",
+      "title": "Motorola G34 5G (Charcoal Black, 128 GB)",
+      "stock": "IN_STOCK",
+      "ram": 8,
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "16.51 cm (6.5 inch) HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Snapdragon 695 5G Processor"
+      ],
+      "mrp": 14999,
+      "price": 11999,
+      "rating": {
+        "average": 4.2,
+        "count": 88727,
+        "reviewCount": 6413
+      },
+      "p_no": 17,
+      "image": "assets/image/motorola.webp",
+      "start_date": "2023-10-01"
     },
 
     {
       "brand": "Apple",
       "title": "Apple iPhone 15 (Black, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 12,
+      "ram": 12,
       "highlights": [
         "12 GB RAM",
         "15.49 cm (6.1 inch) Super Retina XDR Display",
@@ -433,7 +433,7 @@
       "brand": "MOTOROLA",
       "title": "Motorola Edge 50 Fusion (Hot Pink, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 8,
+      "ram": 8,
       "highlights": [
         "8 GB RAM | 128 GB ROM",
         "17.02 cm (6.7 inch) Full HD+ Display",
@@ -457,7 +457,7 @@
       "brand": "realme",
       "title": "realme 12x 5G (Twilight Purple, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 8,
+      "ram": 8,
       "highlights": [
         "8 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
         "17.07 cm (6.72 inch) Full HD+ Display",
@@ -478,34 +478,34 @@
     },
 
     {
-        "brand": "SAMSUNG",
-        "title": "SAMSUNG Galaxy F14 5G (B.A.E. Purple, 128 GB)",
-        "stock": "IN_STOCK",
-        "ram" : 4,
-        "highlights": [
-          "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-          "16.76 cm (6.6 inch) Full HD+ Display",
-          "50MP + 2MP | 13MP Front Camera",
-          "6000 mAh Battery",
-          "Exynos 1330, Octa Core Processor"
-        ],
-        "mrp": 17490,
-        "price": 12990,
-        "rating": {
-          "average": 4.2,
-          "count": 43953,
-          "reviewCount": 2914
-        },
-        "p_no": 21,
-        "image": "assets/image/samsung.webp",
-        "start_date": "2023-12-15"
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy F14 5G (B.A.E. Purple, 128 GB)",
+      "stock": "IN_STOCK",
+      "ram": 4,
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.76 cm (6.6 inch) Full HD+ Display",
+        "50MP + 2MP | 13MP Front Camera",
+        "6000 mAh Battery",
+        "Exynos 1330, Octa Core Processor"
+      ],
+      "mrp": 17490,
+      "price": 12990,
+      "rating": {
+        "average": 4.2,
+        "count": 43953,
+        "reviewCount": 2914
+      },
+      "p_no": 21,
+      "image": "assets/image/samsung.webp",
+      "start_date": "2023-12-15"
     },
 
     {
       "brand": "Nokia",
       "title": "Nokia 105 Single SIM, Keypad Mobile Phone with Wireless FM Radio",
       "stock": "IN_STOCK",
-      "ram" : 1,
+      "ram": 1,
       "highlights": [
         "32 MB RAM | 32 MB ROM",
         "4.5 cm (1.77 inch) Display",
@@ -529,7 +529,7 @@
       "brand": "realme",
       "title": "realme 12x 5G (Twilight Purple, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 6,
+      "ram": 6,
       "highlights": [
         "6 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
         "17.07 cm (6.72 inch) Full HD+ Display",
@@ -553,7 +553,7 @@
       "brand": "realme",
       "title": "realme 12x 5G (Woodland Green, 128 GB)",
       "stock": "IN_STOCK",
-      "ram" : 6,
+      "ram": 6,
       "highlights": [
         "6 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
         "17.07 cm (6.72 inch) Full HD+ Display",
@@ -571,9 +571,216 @@
       "p_no": 24,
       "image": "assets/image/realme.webp",
       "start_date": "2024-03-01"
+    },
+    {
+      "brand": "Infinix",
+      "title": "Infinix SMART 8 HD (Timber Black, 64 GB)",
+      "stock": "IN_STOCK",
+      "ram": 3,
+      "highlights": [
+        "3 GB RAM | 64 GB ROM | Expandable Upto 2 TB",
+        "16.07 cm (6.72 inch) Full HD+ Display",
+        "13MP + AI Lens | 8MP Front Camera",
+        "5000 mAh Battery",
+        "T606 Processor"
+      ],
+      "mrp": 7999,
+      "price": 6699,
+      "rating": {
+        "average": 4.2,
+        "count": 34887,
+        "reviewCount": 2394
+      },
+      "p_no": 25,
+      "image": "assets/image/infinix.webp",
+      "start_date": "2024-03-13"
+    },
+    {
+      "brand": "REDMI",
+      "title": "REDMI A3X (Starry White, 64 GB)",
+      "stock": "IN_STOCK",
+      "ram": 3,
+      "highlights": [
+        "3 GB RAM | 64 GB ROM | Expandable Upto 2 TB",
+        "16.07 cm (6.72 inch) Full HD+ Display",
+        "8MP + AI Lens | 8MP Front Camera",
+        "5000 mAh Battery",
+        "T606 Processor"
+      ],
+      "mrp": 9999,
+      "price": 6999,
+      "rating": {
+        "average": 4.1,
+        "count": 293,
+        "reviewCount": 9
+      },
+      "p_no": 26,
+      "image": "assets/image/redmi1.webp",
+      "start_date": "2023-03-13"
+    },
+    {
+      "brand": "Infinix",
+      "title": "Infinix SMART 8 HD (Galaxy White, 64 GB)",
+      "stock": "IN_STOCK",
+      "ram": 3,
+      "highlights": [
+        "3 GB RAM | 64 GB ROM | Expandable Upto 2 TB",
+        "16.07 cm (6.72 inch) Full HD+ Display",
+        "13MP + AI Lens | 8MP Front Camera",
+        "5000 mAh Battery",
+        "T606 Processor"
+      ],
+      "mrp": 7999,
+      "price": 6599,
+      "rating": {
+        "average": 4.3,
+        "count": 34887,
+        "reviewCount": 2394
+      },
+      "p_no": 27,
+      "image": "assets/image/infinix1.webp",
+      "start_date": "2023-07-19"
+    },
+    {
+      "brand": "REDMI",
+      "title": "REDMI A3 (Midnight Black, 64 GB)",
+      "stock": "IN_STOCK",
+      "ram": 3,
+      "highlights": [
+        "3 GB RAM | 64 GB ROM | Expandable Upto 2 TB",
+        "16.07 cm (6.72 inch) Full HD+ Display",
+        "8MP + AI Lens | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Mediatek Helio G36 Processor"
+      ],
+      "mrp": 9999,
+      "price": 7590,
+      "rating": {
+        "average": 4.1,
+        "count": 2437,
+        "reviewCount": 99
+      },
+      "p_no": 28,
+      "image": "assets/image/redmi2.webp",
+      "start_date": "2023-11-03"
+    },
+    {
+      "brand": "Nokia",
+      "title": "Nokia C31 (Charcoal, 32 GB)",
+      "stock": "IN_STOCK",
+      "ram": 3,
+      "highlights": [
+        "3 GB RAM | 64 GB ROM | Expandable Upto 2 TB",
+        "16.15 cm (6.72 inch) Full HD+ Display",
+        "13MP + AI Lens | 8MP Front Camera",
+        "4950 mAh Battery",
+        "Unisoc SC9863A Processor"
+      ],
+      "mrp": 11099,
+      "price": 8999,
+      "rating": {
+        "average": 3.7,
+        "count": 178,
+        "reviewCount": 6
+      },
+      "p_no": 29,
+      "image": "assets/image/nokia1.webp",
+      "start_date": "2022-12-03"
+    },
+    {
+      "brand": "Nokia",
+      "title": "Nokia C22 (Purple, 64 GB)",
+      "stock": "IN_STOCK",
+      "ram": 2,
+      "highlights": [
+        "2 GB RAM | 64 GB ROM | Expandable Upto 2 TB",
+        "16.15 cm (6.72 inch) Full HD+ Display",
+        "13MP + AI Lens | 8MP Front Camera",
+        "5000 mAh Battery",
+        "1 year warranty"
+      ],
+      "mrp": 8999,
+      "price": 6300,
+      "rating": {
+        "average": 3.7,
+        "count": 433,
+        "reviewCount": 7
+      },
+      "p_no": 30,
+      "image": "assets/image/nokia2.webp",
+      "start_date": "2023-12-30"
+    },
+    {
+      "brand": "REDMI",
+      "title": "REDMI A2 (Aqua Blue, 32 GB)",
+      "stock": "IN_STOCK",
+      "ram": 2,
+      "highlights": [
+        "2 GB RAM | 64 GB ROM | Expandable Upto 2 TB",
+        "16.56 cm (6.72 inch) Full HD+ Display",
+        "8MP + AI Lens | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G36 Processor"
+      ],
+      "mrp": 8999,
+      "price": 7360,
+      "rating": {
+        "average": 4.1,
+        "count": 16428,
+        "reviewCount": 858
+      },
+      "p_no": 31,
+      "image": "assets/image/redmi3.webp",
+      "start_date": "2023-10-30"
+    },
+    {
+      "brand": "I Kall",
+      "title": "I Kall K333 Plus Touch and Type (Blue, 16 GB)",
+      "stock": "IN_STOCK",
+      "ram": 2,
+      "highlights": [
+        "2 GB RAM | 16 GB ROM | Expandable Upto 128gb",
+        "7.11 cm (6.72 inch) Full HD+ Display",
+        "2MP + Rear camera",
+        "2000 mAh Battery",
+        "1 year manufacture warranty"
+      ],
+      "mrp": 4999,
+      "price": 2986,
+      "rating": {
+        "average": 3.4,
+        "count": 931,
+        "reviewCount": 85
+      },
+      "p_no": 32,
+      "image": "assets/image/ikal.webp",
+      "start_date": "2024-01-30"
+    },
+    {
+      "brand": "REDMI",
+      "title": "Redmi 7A (Matte Blue, 32 GB)",
+      "stock": "IN_STOCK",
+      "ram": 2,
+      "highlights": [
+        "2 GB RAM | 16 GB ROM | Expandable Upto 128gb",
+        "13.84 cm (5.45 inch) HD+ Display",
+        "12MP + Rear camera | 5MP Front Camera",
+        "4000 mAh Battery",
+        "Qualcomm Snapdragon 439 Processor"
+      ],
+      "mrp": 7494,
+      "price": 6500,
+      "rating": {
+        "average": 4.3,
+        "count": 389769,
+        "reviewCount": 27920
+      },
+      "p_no": 33,
+      "image": "assets/image/redmi4.webp",
+      "start_date": "2021-01-30"
     }
   ],
-  "error_msg":{
+  "error_msg": {
     "msg": "Sorry, no results found!",
     "img": "assets/image/error-no-search-results_2353c5.png"
   }
